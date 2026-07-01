@@ -1,0 +1,27 @@
+{
+  "name": "gasroute-oracle",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "build": "tsc --noEmit",
+    "start": "node --loader tsx/esm src/server.ts"
+  },
+  "dependencies": {
+    "@lucid-dreams/agent-kit": "^0.2.24",
+    "@hono/node-server": "^1.14.4",
+    "hono": "4.12.18",
+    "viem": "^2.38.5",
+    "zod": "^4.1.12"
+  },
+  "overrides": {
+    "axios": "1.16.0",
+    "hono": "4.12.18"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}
