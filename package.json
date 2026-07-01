@@ -11,6 +11,7 @@
   "dependencies": {
     "@lucid-dreams/agent-kit": "^0.2.24",
     "@hono/node-server": "^1.14.4",
+    "@netlify/functions": "^3.0.0",
     "hono": "4.12.18",
     "viem": "^2.38.5",
     "zod": "^4.1.12"

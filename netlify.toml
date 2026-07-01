@@ -1,0 +1,12 @@
+[build]
+  command = "bun install --frozen-lockfile 2>/dev/null || bun install"
+  publish = "public"
+
+[functions]
+  node_bundler = "nft"
+
+[build.environment]
+  NODE_VERSION = "22"
+  FACILITATOR_URL = "https://facilitator.daydreams.systems"
+  NETWORK = "base-sepolia"
+  DEFAULT_PRICE = "1000"
