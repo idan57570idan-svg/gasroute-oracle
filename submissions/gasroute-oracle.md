@@ -60,7 +60,7 @@ https://github.com/idan57570idan-svg/gasroute-oracle
 
 ## Solana Wallet
 
-**Wallet Address:** *(to be provided — leave comment if needed)*
+**Wallet Address:** BVf9eNCQFSamVQ2VwkQZ9UvkUX37j7Syk75DvZtutJef
 
 ## Technical Stack
 
